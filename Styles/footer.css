@@ -1,0 +1,114 @@
+.big-footer{
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    padding: 17px;
+    background-color: rgb(230, 159, 138);
+    height: 300px;
+    overflow-X: hidden;
+    overflow-y: hidden;
+    scroll-behavior: none;
+}
+
+.big-footer .column{
+    float: left;
+    width: 25%;
+}
+
+.big-footer .column h2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.big-footer .column ul{
+    font-family: 'Poppins',sans-serif;
+    list-style: none;
+}
+
+.big-footer .column a{
+    text-decoration: none;
+    color: white;
+}
+
+.big-footer .column form{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.big-footer .column form input{
+    margin-bottom: 5px;
+}
+
+.big-footer .column form #name{
+    font-family: 'Poppins',sans-serif;
+    border: none;
+    padding: 2px;
+    width: 170px;
+}
+
+.big-footer .column form #email{
+    font-family: 'Poppins',sans-serif;
+    border: none;
+    padding: 2px;
+    width: 170px;
+}
+
+textarea{
+    height: 100px;
+    width: 173px;
+    resize: vertical;
+    font-family: 'Poppins';
+    border: none;
+    padding: 1px;
+}
+
+.big-footer .column form .submitBtn{
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+
+.big-footer .column form .submitBtn:hover{
+    background-color: rgb(231, 119, 84);
+    color: white;
+    transition: 0.5s;
+}
+
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(230, 128, 97);
+    height: 70px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.sticky-footer .social-medias{
+    font-size: 20px;
+}
+
+.sticky-footer .social-medias a{
+    color: white;
+    padding: 5px;
+}
+
+.sticky-footer .copyright-text{
+    font-size: 14px;
+}
+
+.sticky-footer .copyright-text a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+.sticky-footer .copyright-text #year{
+    font-size: 10px;
+    color: white;
+}

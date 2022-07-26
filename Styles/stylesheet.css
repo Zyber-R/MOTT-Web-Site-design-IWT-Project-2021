@@ -1,0 +1,841 @@
+body{
+	margin : 0;
+	padding : 0;
+	margin: auto;
+	width: 100%
+}
+
+
+ul{
+	list-style-type: none;
+	margin: 50px 0 0 0px;
+	padding: 0;
+	overflow: hidden;
+	display : inline-block;
+	
+}
+
+li{
+	display : inline;
+	padding : 0px 0px;
+	float : left;
+
+}
+
+nav a{ 
+	padding : 20px 15px ;
+	width : 100px;
+	text-decoration : none;
+	text-align : center;
+	font-family : Lato;
+	text-transform : uppercase;
+	color : #000000;
+	font-weight: bold;
+}
+
+.vendorDrop{
+	background-color: white;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11pt;
+	display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover{
+	background-color: #ddd;
+}
+
+.vendorDrop:hover .dropdowncontent {
+	display: inline;
+}
+
+.vendorDrop:hover {
+}
+
+nav a:hover{
+	color : #5DBCD2;
+	transition : 0.5s;
+	
+}
+
+
+
+
+
+.slide{
+	margin: 50px 0 0 0 ;
+	transition : 0.5s;
+	text-align: center;
+	position: relative;
+
+}
+
+.Slides{
+	width: 100%;
+}
+
+.dot {
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 80%;
+	display: inline-block;
+	position: relative;
+	margin-top: -85px;
+	transition: background-color 0.6s ease;
+}
+
+.dotSlide{
+	position: relative;
+	margin-top: -55px;
+}
+
+.active{
+	background-color: #5DBCD2;
+}
+
+.vPlanners{
+	font-weight: bold;
+}
+
+.foo1 {
+	position: auto;
+	left: 0;
+	margin-top : -200px;
+	padding : 20px 0;
+	width: 100%;
+	height : 50%;
+	color: #878787;
+}
+
+.foo1 img{
+	position : absolute;
+	width : 150px;
+	height : auto;
+	margin-top : -105px;
+	margin-left : 1125px ;
+}
+
+.fooContent{
+	text-decoration : none;
+	text-align : center;
+	font-family : Lato;
+	margin-left : -1150px;
+	margin-top: 10px;
+	position: relative;
+}
+
+
+
+
+.col7{
+	margin-left : -29px;
+}
+
+
+.navbar {
+    width: 100%;
+    position: relative;
+    height: auto;
+} 
+
+.navbar li,.content {
+    float: none;
+    text-align: center;
+  }
+
+
+
+.slider-content{
+	position: absolute;
+	margin: 0 auto;
+	width: 40%;
+	height: 20%;
+	margin: -430px 475px;
+	text-align: center;
+}
+
+.on-slide{
+	color: white;
+	font-family: lato;
+	font-size: 30pt;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.on-slide h3{
+	text-align: center;
+	position: relative;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+form.example button:hover {
+  background: #3f96aa;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.servicesWrapper{
+	margin-top: 75px;
+	margin: 0 auto;
+}
+
+.servicesSquares{
+	text-align: center;
+	width: 75%;
+	margin-left: 313px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+
+}
+
+.servicesSquaresDown{
+	text-align: center;
+	width: 75%;
+	margin-left: 313px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+.servicesHead img{
+	width: 300px;
+	height: auto;
+	padding:10px;
+	position: relative;
+	text-align: center;
+}
+
+.servicesHead{
+	display:inline;
+	float: left;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.servicesHead img {
+  	transition: transform .4s, filter 1.5s ease-in-out;
+
+  	text-align: center;
+}
+
+
+.servicesHead:hover img {
+
+  	transform: scale(1.05);
+  	text-align: center;
+}
+
+.servicesHead a{
+	text-decoration : none;
+	text-align: center;
+	font-family : Lato;
+	text-transform : uppercase;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+	position: relative;
+	margin: auto;
+}
+
+.servicesHead a:hover{
+	color : #5DBCD2;
+	text-align: center;
+	transition : 0.4s;
+	
+}
+
+.servicesClass{
+	text-align: center;
+	position: relative;
+}
+
+.loginwindow{
+	width : 80%;
+	margin-left : 300px; 
+	float : left;
+	text-align: center;
+	margin-top: -625px;
+	position: relative;
+}
+
+.loginwindow h3{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+
+}
+
+.loginwindow h2{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+
+}
+
+.loginwindow p{
+	text-decoration : none;
+	font-family : Lato;
+	color : #000000;
+	font-weight: bold;
+	padding : 0px 10px;
+}
+.loginwindow a{
+	text-decoration : none;
+	font-family : Lato;
+	color : #5DBCD2;
+	font-weight: bold;
+
+}
+
+
+
+.socialwrapper{
+	margin-top: -50px;
+	margin-left: -1110px;
+	position: relative;
+	text-align: center;
+}
+
+.fooQuote p{
+	font-family : Lato;
+	font-size: 18pt;
+	color : gray;
+	margin-left: 20px;
+	margin-top: -250px;
+	padding : 0px 10px;
+	position: relative;
+	text-align: center;
+}
+
+
+
+.fooTags{
+	position: relative;
+	text-align: center;
+	margin-left: -1200px;
+	margin-top: -90px;
+
+}
+
+.fooTags a{
+	position: relative;
+	text-decoration: none;
+	font-family : Lato;
+	font-weight: bold;
+	font-size: 15pt;
+	color : #353535;
+
+}
+
+.userHeader p{
+	text-decoration: none;
+	color: #5DBCD2;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt;
+	font-family: Lato;
+
+}
+
+.userAccHeaderlogo img{
+	position: relative;
+	width: 150px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+
+
+
+.userProfCont img{
+	text-align: center;
+	position: relative;
+}
+
+.userLogo{
+	position: relative;
+	width: 120px;
+	height: auto;
+	text-align: center;
+}
+
+.userProfWrapper{
+	text-align: center;
+}
+
+.userInfo input[type=text]{
+	border: 1px solid #5DBCD2;
+	border-radius: 2px;
+	width: 20%;
+	height: 40px;
+	padding: 10px;
+ 	border: 1px solid white;
+ 	box-shadow: 1px 1px 2px gray;
+ 	position: relative;
+ }
+
+
+@-webkit-keyframes fade {
+  	from {opacity: 0.5} 
+  	to {opacity: 1}
+
+
+}
+
+@keyframes fade {
+  	from {opacity: 0.5} 
+  	to {opacity: 1}
+}
+
+
+.contactusContent img{
+	width: 600px;
+	height: auto;
+}
+
+
+.telP{
+	position: relative;
+	text-align: center;
+}
+
+.telP img{
+	width: 600px;
+	height: auto;
+	position: relative;
+	margin-left: -600px;
+	margin-top: -50px;
+}
+
+.contNet{
+	position: relative;
+	text-align: center;
+	margin-top: -19px;
+}
+
+.contNet img{
+	width: 600px;
+	height: auto;
+	position: relative;
+	margin-left: 600px;
+	margin-top: -2200px;
+}
+
+
+
+.dressImage img{
+ 	width: 100%;
+ 	position: relative;
+ 	height: auto;
+ 	margin-top: 50px;
+ }
+
+ .reviewImage img{
+ 	width: 100%;
+ 	position: relative;
+ 	height: auto;
+ 	margin-top: 50px;
+ }
+
+ }
+.reviewItems{
+	position: relative;
+	text-align: center;
+	height: auto;
+	margin-top: 30px;
+}
+
+.reviewItems img{
+	width: 900px;
+	height: auto;
+ }
+
+.dressItems{
+	position: relative;
+	text-align: center;
+	height: auto;
+	margin-top: 30px;
+}
+
+.dressItems img{
+	width: 900px;
+	height: auto;
+ }
+
+
+ .venueImage img{
+ 	width: 100%;
+ 	position: relative;
+ 	height: auto;
+ 	margin-top: 50px;
+ }
+
+.venueItems{
+	position: relative;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.venueItems img{
+	width: 900px;
+	height: auto;
+ }
+
+.userAccButton input[type=submit]{
+	width: 5%;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #5DBCD2;
+  	border: none;
+  	color: white;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size: 14pt;
+ 	position: relative;
+}
+
+
+.hotelss {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  background: #5DBCD2;
+  color: white;
+  font-size: 17px;
+  border: 1px solid ;
+  border-left: none;
+  font-weight: bold;
+}
+
+.hotelss a{
+  font-size: 17px;
+  text-decoration: none;
+  font-family: Lato;
+  color: white;
+  cursor: pointer;
+}
+
+.Classroom Management 1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Classroom Management 2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Classroom Management 3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Classroom Management 4{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Classroom Management 5{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Classroom Management 6{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+
+.School Innovation 1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.School Innovation 2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.School Innovation 3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.School Innovation 4{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.School Innovation 5{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.telpValues{
+	margin-top: -350px;
+	margin-left: -600px;
+	position: relative;
+}
+
+.telpValues p{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	color: #5DBCD2;
+	font-weight: bold;
+
+}
+
+.telpValues h4{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 14pt;
+
+}
+
+.conNetValues{
+	margin-top: -203px;
+	margin-left: 600px;
+	position: relative;
+}
+
+.conNetValues p{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	color: #5DBCD2;
+	font-weight: bold;
+
+}
+
+.conNetValues a{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	color: #5DBCD2;
+	font-weight: bold;
+
+}
+
+.conNetValues h4{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 14pt;
+
+}
+
+iframe{
+	position: relative;
+	text-align: center;
+	margin-top: 200px;
+
+}
+
+.aboutinf{
+	width: 60%;
+	float: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+.aboutInfo{
+	position: relative;
+	text-align: justify;
+	font-family: Lato;
+	font-size: 15pt;
+	margin-top: -500px;
+	margin: 0 auto;
+	color: gray;
+
+}
+
+.decoItems{
+	position: relative;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.decoItems img{
+	width: 900px;
+	height: auto;
+ }
+
+ .Languages and CLIL 1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Languages and CLIL 2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Languages and CLIL 3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.cakeItems{
+	position: relative;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.cakeItems img{
+	width: 900px;
+	height: auto;
+ }
+
+ .ART AND WELLBEING 1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.ART AND WELLBEING 2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+.ART AND WELLBEING 3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+
+.photogItems{
+	position: relative;
+	text-align: center;
+
+	margin-top: 30px;
+}
+
+.photogItems img{
+	width: 900px;
+	height: auto;
+ }
+
+ .Creativity and Soft Skills 1{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Creativity and Soft Skills 2{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.Creativity and Soft Skills 3{
+	position: relative;
+	text-align: center;
+	margin-left: 750px;
+	margin-top: -85px;
+}
+
+.planItems1{
+	text-decoration:none;
+	font-family: Lato;
+	color: #000000;
+	text-align: center;
+
+}
+
+.planItems{
+	text-align: center;
+}
+
+
+.userToolbarWrapper{
+	position: relative;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+
+

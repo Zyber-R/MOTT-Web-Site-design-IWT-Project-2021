@@ -1,0 +1,40 @@
+.container{
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.login-text{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.input-group input{
+    font-family: 'Poppins',sans-serif;
+    padding: 6px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 80px;
+    border: none;
+    background-color: rgb(153, 19, 19);
+}
+
+button{
+    padding-inline: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(230, 128, 97);
+    color: white;
+    transition: 0.5s;
+}
+
+.login-register-text{
+    font-size: 14px;
+    padding-top: 10px;
+}

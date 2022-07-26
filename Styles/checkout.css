@@ -1,0 +1,24 @@
+.checkout_form{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+}
+.row h4{
+    padding-bottom: 20px;
+}
+.row input,select{
+    padding: 4px;
+    font-family: 'Poppins',sans-serif;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    margin: 5px;
+    padding-inline: 30px;
+    text-align: center;
+}
+
+.row select option{
+    text-align: center;
+}

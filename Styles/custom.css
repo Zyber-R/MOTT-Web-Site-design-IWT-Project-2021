@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    min-height: 100vh;
+    padding: 20px 20px;
+    display: flex;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    width: 40vh;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+h1{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.input-group {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;   
+}
+
+label {
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 10px;
+    font-style:oblique;
+}
+
+input {
+    width: 200px;
+    height: 5px;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.form-text {
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    border: 2px solid #e7e7e7;
+}
+
+.btn {
+    background-color: #fd7653;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social-media {
+    align-items: baseline;
+    padding-left: 25%;
+    width: 50%; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(0%,1fr));
+}
+
+P {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin-top: 50px;
+}
+
+.social-media a {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 1px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media  a.facebook {
+    background: #4267B2;
+}
+
+.social-media  a.instagram {
+    background: #8a3ab9;
+}
+
+.social-media  a.googleplus {
+    background: #db4a39;
+}
+
+.social-media  a.linkedin {
+    background: #0e76a8;
+}
+
+.social-media  a.facebook:hover {
+    background: #376180;
+}
+
+.social-media  a.instagram:hover {
+    background: #0996ee;
+}
+
+.social-media  a.googleplus:hover {
+    background: #d13321;
+}
+
+.social-media a.linkedin:hover {
+    background: #006b9c;
+}

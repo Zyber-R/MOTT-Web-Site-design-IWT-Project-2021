@@ -1,0 +1,21 @@
+center h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+center a{
+    font-family: sans-serif;
+}
+
+.bor{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.bor table{
+    font-family: sans-serif;
+}
+
+.new_feed{
+    padding-bottom: 30px;
+}
